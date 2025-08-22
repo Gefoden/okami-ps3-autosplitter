@@ -34,5 +34,5 @@ You can edit this file to customize which zones should create a split.
 
 ---
 
-## 📩 Support
+## Support
 If you encounter issues, feel free to open an **Issue** on GitHub or contact me directly. 
