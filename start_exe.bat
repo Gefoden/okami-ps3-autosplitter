@@ -1,2 +1,2 @@
-okami_autosplit.exe
+okami_ps3_autosplitter.exe
 pause

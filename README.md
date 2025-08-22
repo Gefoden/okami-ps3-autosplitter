@@ -29,7 +29,11 @@ You can edit this file to customize which zones should create a split.
 ## Usage
 1. Start **LiveSplit** and enable the TCP server  
 2. Launch **RPCS3** and run Okami  
-3. Run this autosplitter (`okami_autosplit.py`)  
+3. Download the latest release from the [Releases page](../../releases) and run `okami_ps3_autosplitter.exe`.
+
+> **Note:** Place the files from the release in an empty folder.  
+> Make sure `zone_changes.json` is in the same folder as `okami_autosplit.exe`, otherwise the autosplitter will not work correctly.
+
 4. Play the game — splits will happen automatically
 
 ---

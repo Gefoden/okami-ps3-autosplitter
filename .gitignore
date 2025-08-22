@@ -11,6 +11,7 @@ env/
 build/
 *.spec
 *.exe
+*.zip
 
 # Logs
 log.txt
