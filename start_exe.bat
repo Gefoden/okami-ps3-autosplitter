@@ -1,0 +1,2 @@
+okami_autosplit.exe
+pause

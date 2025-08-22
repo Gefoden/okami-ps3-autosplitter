@@ -1,0 +1,164 @@
+[
+	{
+		"enabled": true, "old_area": 1, "new_area": 30, "description": "From Cursed Kamiki Village to River of the Heavens"
+	},
+	{
+		"enabled": true, "old_area": 30, "new_area": 2, "description": "From River of the Heavens to Cave of Nagi"
+	},
+	{
+		"enabled": true, "old_area": 2, "new_area": 30, "description": "From Cave of Nagi to River of the Heavens"
+	},
+	{
+		"enabled": true, "old_area": 30, "new_area": 1, "description": "From River of the Heavens to Cursed Kamiki Village"
+	},
+	{
+		"enabled": true, "old_area": 1, "new_area": 3, "description": "From Cursed Kamiki Village to Kamiki Village"
+	},
+	{
+		"enabled": true, "old_area": 3, "new_area": 71, "description": "From Kamiki Village to Shinshu Field"
+	},
+	{
+		"enabled": true, "old_area": 71, "new_area": 4, "description": "From Shinshu Field to Hana Valley"
+	},
+	{
+		"enabled": true, "old_area": 4, "new_area": 71, "description": "From Hana Valley to Shinshu Field"
+	},
+	{
+		"enabled": true, "old_area": 71, "new_area": 78, "description": "From Shinshu Field to Kamui"
+	},
+	{
+		"enabled": true, "old_area": 78, "new_area": 71, "description": "From Kamui to Shinshu Field"
+	},
+	{
+		"enabled": true, "old_area": 71, "new_area": 72, "description": "From Shinshu Field to Agata Forest"
+	},
+	{
+		"enabled": true, "old_area": 72, "new_area": 5, "description": "From Agata Forest to Tsuta Ruins"
+	},
+	{
+		"enabled": true, "old_area": 72, "new_area": 5, "description": "Enter Spider Queen"
+	},
+	{
+		"enabled": true, "old_area": 5, "new_area": 7, "description": "Leave Spider Queen"
+	},
+	{
+		"enabled": true, "old_area": 7, "new_area": 74, "description": "From Agata Forest to Taka Pass"
+	},
+	{
+		"enabled": true, "old_area": 74, "new_area": 9, "description": "From Taka Pass to Kusa Village"
+	},
+	{
+		"enabled": true, "old_area": 9, "new_area": 8, "description": "From Kusa Village to Gale Shrine"
+	},
+	{
+		"enabled": true, "old_area": 8, "new_area": 9, "description": "From Gale Shrine to Kusa Village"
+	},
+	{
+		"enabled": true, "old_area": 9, "new_area": 74, "description": "From Kusa Village to Taka Pass"
+	},
+	{
+		"enabled": true, "old_area": 74, "new_area": 10, "description": "From Taka Pass to Sasa Sanctuary"
+	},
+	{
+		"enabled": true, "old_area": 10, "new_area": 12, "description": "From Sasa Sanctuary to Digging Minigame"
+	},
+	{
+		"enabled": true, "old_area": 12, "new_area": 10, "description": "From Digging Minigame to Sasa Sanctuary"
+	},
+	{
+		"enabled": true, "old_area": 10, "new_area": 74, "description": "From Sasa Sanctuary to Taka Pass"
+	},
+	{
+		"enabled": true, "old_area": 74, "new_area": 6, "description": "From Taka Pass to City Checkpoint"
+	},
+	{
+		"enabled": true, "old_area": 6, "new_area": 75, "description": "From City Checkpoint to Ryoshima Coast"
+	},
+	{
+		"enabled": true, "old_area": 75, "new_area": 36, "description": "From Ryoshima Coast to Sunken Ship"
+	},
+	{
+		"enabled": true, "old_area": 36, "new_area": 75, "description": "From Sunken Ship to Ryoshima Coast"
+	},
+	{
+		"enabled": true, "old_area": 75, "new_area": 77, "description": "From Ryoshima Coast to Northern Ryoshima Coast"
+	},
+	{
+		"enabled": true, "old_area": 77, "new_area": 34, "description": "From Northern Ryoshima Coast to Dragon Palace"
+	},
+	{
+		"enabled": true, "old_area": 34, "new_area": 35, "description": "From Dragon Palace to Inside the Dragon"
+	},
+	{
+		"enabled": true, "old_area": 35, "new_area": 34, "description": "From Inside the Dragon to Dragon Palace"
+	},
+	{
+		"enabled": true, "old_area": 34, "new_area": 77, "description": "From Dragon Palace to Northern Ryoshima Coast"
+	},
+	{
+		"enabled": true, "old_area": 77, "new_area": 75, "description": "From Northern Ryoshima Coast to Ryoshima Coast"
+	},
+	{
+		"enabled": true, "old_area": 75, "new_area": 37, "description": "From Ryoshima Coast to Imperial Palace"
+	},
+	{
+		"enabled": true, "old_area": 37, "new_area": 31, "description": "From Imperial Palace to Sei'an City (Aristocratic Quarter)"
+	},
+	{
+		"enabled": true, "old_area": 31, "new_area": 32, "description": "From Sei'an City (Aristocratic Quarter) to Sei'an City (Commoner's Quarter)"
+	},
+	{
+		"enabled": true, "old_area": 32, "new_area": 75, "description": "From Sei'an City (Commoner's Quarter) to Ryoshima Coast"
+	},
+	{
+		"enabled": true, "old_area": 77, "new_area": 44, "description": "From Northern Ryoshima Coast to Oni Island Exterior"
+	},
+	{
+		"enabled": true, "old_area": 44, "new_area": 77, "description": "From Oni Island Exterior to Northern Ryoshima Coast"
+	},
+	{
+		"enabled": true, "old_area": 77, "new_area": 78, "description": "From Northern Ryoshima Coast to Kamui"
+	},
+	{
+		"enabled": true, "old_area": 78, "new_area": 47, "description": "From Kamui to Wep'keer"
+	},
+	{
+		"enabled": true, "old_area": 78, "new_area": 47, "description": "From Wep'keer to Kamui (Ezofuji)"
+	},
+	{
+		"enabled": true, "old_area": 47, "new_area": 53, "description": "From Kamui (Ezofuji) to Ark of Yamato"
+	},
+	{
+		"enabled": true, "old_area": 53, "new_area": 56, "description": "From Ark of Yamato to Blight 2"
+	},
+	{
+		"enabled": true, "old_area": 53, "new_area": 56, "description": "From Blight 2 to Ark of Yamato"
+	},
+	{
+		"enabled": true, "old_area": 53, "new_area": 55, "description": "From Ark of Yamato to Orochi 2"
+	},
+	{
+		"enabled": true, "old_area": 53, "new_area": 55, "description": "From Orochi 2 to Ark of Yamato"
+	},
+	{
+		"enabled": true, "old_area": 53, "new_area": 54, "description": "From Ark of Yamato to Spider Queen 2"
+	},
+	{
+		"enabled": true, "old_area": 53, "new_area": 54, "description": "From Spider Queen 2 to Ark of Yamato"
+	},
+	{
+		"enabled": true, "old_area": 53, "new_area": 58, "description": "From Ark of Yamato to Crimson Helm 2"
+	},
+	{
+		"enabled": true, "old_area": 53, "new_area": 58, "description": "From Crimson Helm 2 to Ark of Yamato"
+	},
+	{
+		"enabled": true, "old_area": 53, "new_area": 57, "description": "From Ark of Yamato to Ninetails 2"
+	},
+	{
+		"enabled": true, "old_area": 53, "new_area": 57, "description": "From Ninetails 2 to Ark of Yamato"
+	},
+	{
+		"enabled": true, "old_area": 53, "new_area": 62, "description": "From Ark of Yamato to Yami"
+	}
+]
