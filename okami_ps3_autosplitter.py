@@ -3,6 +3,7 @@ import time
 import struct
 import json
 import sys
+import os
 import pymem
 from pymem import Pymem
 from datetime import datetime
@@ -16,9 +17,6 @@ ADDRESSES = {
 	"area_id": 0x300EA9908,
 	"finish_screen": 0x336F8A4A4
 }
-
-BASE = 0x0
-offset = None
 
 
 # Functions
@@ -58,17 +56,31 @@ def wait_for_game(pm):
 		try:
 			data = pm.read_bytes(ADDRESSES["time"], 4)
 			print("✅ Okami launched!")
-			time.sleep(3)
+			time.sleep(5)
 			break
 		except pymem.exception.MemoryReadError:
 			if not tutorial_printed:
 				print("\n\n❌ Okami is not started!\n\nWaiting for Okami to be started...\n")
 				tutorial_printed = True
 
+
+def get_setting(key, filename="settings.json", default=None):
+    if not os.path.exists(filename):
+        return default
+    
+    try:
+        with open(filename, "r") as f:
+            settings = json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return default
+
+    return settings.get(key, default)
+
 def read_zone_changes():
 	# Load zone changes
-	with open("zone_changes.json", "r") as f:
+	with open(get_setting("zone_changes_file"), "r") as f:
 		zone_changes = json.load(f)
+	print(f"Splits loaded from file: {get_setting('zone_changes_file')}")
 	# Keep only enabled zone changes and initialize already_done
 	zone_changes = [z for z in zone_changes if z["enabled"]]
 	for z in zone_changes:
