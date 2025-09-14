@@ -1,3 +1,22 @@
 {
-    "zone_changes_file": "zone_changes_ng+_beginner.json"
+	"splits_file": "splits_ng+_beginner.json",
+	"game_version": "ps3",
+	"livesplit_host": "127.0.0.1",
+	"livesplit_port": 16834,
+	"mode": "record",
+	"addresses": {
+		"ps3": {
+			"base": "0x300000000",
+			"time": "0xE6B0E8",
+			"area_id": "0xEA9908",
+			"finish_screen": "0x36F8A4A4",
+			"fight_money": "0x300E68194"
+		},
+		"pc": {
+			"time": "0xB217FC",
+			"area_id": "0xB6B2C8",
+			"finish_screen": "0xB5262C",
+			"fight_money": "0xB1DBBC"
+		}
+	}
 }

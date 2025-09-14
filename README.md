@@ -1,42 +1,65 @@
-# Okami PS3 Auto Splitter  
-An **auto splitter** for *Okami* on RPCS3, using **LiveSplit** for timing.
+# Okami Auto Splitter
+
+An **auto splitter** for *Okami*, using **LiveSplit** for timing.  
+Supports both the **PC/Steam** version and the **PS3 (via RPCS3)** version.
 
 ---
 
-## What it does
-This tool automatically detects **zone changes** in Okami (PS3 version running in RPCS3) and sends **split commands** to LiveSplit.  
-No manual key presses needed — the autosplitter takes care of it for you.
+## Features
+
+- Automatically detects **zone changes**, **fights**, and more in *Okami*.  
+- Sends **split commands** to LiveSplit — no manual key presses required.  
+- Works for both PC/Steam and PS3/RPCS3 versions.  
 
 ---
 
 ## Requirements
-Before running the program, make sure you have:
 
-- **LiveSplit** installed with your splits set up  
-- **LiveSplit TCP Server enabled**  
+Before running, ensure you have:
+
+- **LiveSplit** installed and your splits set up  
+  > Example LiveSplit files (`.lss`) are included in the **livesplit/** folder.
+- A configured **settings.json** (see [Configuration](#configuration)).  
+- The **LiveSplit TCP Server** running  
   > Right-click LiveSplit → *Control* → *Start TCP Server*  
-- **RPCS3** running  
-- **Okami (PS3 version)** launched inside RPCS3  
+- **Okami** launched (PC/Steam or PS3/RPCS3)
 
 ---
 
 ## Configuration
-Splits are triggered by **zone changes** defined in `zone_changes.json`.  
-You can edit this file to customize which zones should create a split.  
+
+Splits are defined in JSON files inside the **splits/** folder (e.g. `splits/your_split_file.json`).  
+You can maintain multiple files for different categories or routes. Have a look at *splits_example.json* to see what is possible.
+
+To configure:
+
+1. In `settings.json`, set the `splits_file` property to your chosen file, e.g.:
+```json
+   "splits_file": "any_percent.json"   
+```
+2. Set the `game_version` property to either:
+-   `"pc"` for the Steam version
+-   `"ps3"` for the RPCS3 version
+3. If you want to record the values to help you create a splits file, set the `mode` property to `"record"`.
+  > It will create a record file for each run in a *records/* folder
 
 ---
 
 ## Usage
-1. Start **LiveSplit** and enable the TCP server  
-2. Launch **RPCS3** and run Okami  
-3. Download the latest release from the [Releases page](../../releases) and run `okami_ps3_autosplitter.exe`.
 
-> **Note:** Place the files from the release in an empty folder.  
-> Make sure `zone_changes.json` is in the same folder as `okami_autosplit.exe`, otherwise the autosplitter will not work correctly.
-
-4. Play the game — splits will happen automatically
+1.  Start **LiveSplit** and enable the TCP server
+    > Right-click LiveSplit → _Control_ → _Start TCP Server_
+2.  Launch _Okami_.
+3.  Download the latest release from the [Releases page](../../releases).
+4.  Extract the release files into an empty folder.
+5.  Place your `settings.json` in the same folder as `okami_autosplitter.exe` and configure it properly. 
+6.  Run `okami_autosplitter.exe`.
+8.  Play — splits will happen automatically. 🎉
 
 ---
 
 ## Support
-If you encounter issues, feel free to open an **Issue** on GitHub or contact me directly. 
+
+If you run into issues or have suggestions:
+-   Open an **Issue** here on GitHub
+-   Or contact me directly
